@@ -73,8 +73,7 @@ function isLoggedIn() {
 }
 
 
-if (!isset($_SESSION["admin_id"])) {
-    header("Location: login.php"); // Redirect if not logged in
-    exit();
+function isAdminLoggedIn() {
+    return isset($_SESSION['admin_id']);
 }
 ?>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../includes/auth.php"); // Checks if admin is logged in
+include("../includes/admin-auth.php"); // Checks if admin is logged in
 include("../config/database.php");
 
 // Initialize filter variables
