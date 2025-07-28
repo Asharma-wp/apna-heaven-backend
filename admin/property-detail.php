@@ -1,6 +1,7 @@
 <?php
 // Start session and include database connection
 session_start();
+include("../includes/auth.php"); // Checks if admin is logged in
 require_once '../config/database.php'; // Make sure this file exists and has your PDO connection
 
 // Get property ID from URL
