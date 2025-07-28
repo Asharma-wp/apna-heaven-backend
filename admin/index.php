@@ -116,12 +116,12 @@ try {
           <div class="logo"><a href="/">Apna Heaven</a></div>
           <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
           <ul class="nav-menu">
-            <li><a href="#" class="nav-link">Cities</a></li>
+            <!-- <li><a href="#" class="nav-link">Cities</a></li>
             <li><a href="#" class="nav-link">Resale Homes</a></li>
             <li><a href="#" class="nav-link">Sell Property</a></li>
             <li><a href="#" class="nav-link">Resale Apartments</a></li>
             <li><a href="#" class="nav-link">Resale Villas</a></li>
-            <li><a href="#" class="nav-link">Commercial Resale</a></li>
+            <li><a href="#" class="nav-link">Commercial Resale</a></li> -->
             <li><a href="./add-listing.html" class="nav-link nav-button">List Your Property</a></li>
           </ul>
         </nav>
@@ -222,7 +222,7 @@ try {
                         <p>Try adjusting your filters to see more results.</p>
                     </div>
                 <?php else: ?>
-                    <?php foreach ($properties as $property): ?>
+                    <?php foreach ($properties as $property): ?> 
                     <div class="property-card">
                         
                         <a href="./property-detail.php?id=<?= $property['id'] ?>" class="view-details-btn">
